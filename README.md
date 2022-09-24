@@ -17,21 +17,20 @@ A to-do list that increments priority of old tasks.
 8. [x] (15:01) add user auth
 9. [x] (15:39) add UI framework
 10. [x] (15:54) add code formatting
-11. [ ] render a page
-12. [ ] Vercel
-13. [ ] be responsive
-14. [ ] add more auth providers for dev (email, google, passwordless?)
-15. [ ] add auth providers for production
-16. [ ] create db schema
-17. [ ] add a todo item
-18. [ ] when state changes we should save to db and/or local storage
-19. [ ] ability to store history
-20. [ ] apply code formatted to only staged files
-21. [ ] add importance incrementer
-22. [ ] add item editting
-23. [ ] add ability to add/remove items
-24. [ ] be able to move items up/down
-25. [ ] be able to sort items
+11. [x] (18:47) render a page
+13. [ ] add more auth providers for dev (email, google, passwordless?)
+14. [ ] add auth providers for production
+15. [ ] create db schema (support multiple lists per user)
+16. [ ] add a todo item
+17. [ ] when state changes we should save to db and/or local storage
+18. [ ] ability to store history
+19. [ ] apply code formatted to only staged files
+20. [ ] add importance incrementer
+21. [ ] add item editting
+22. [ ] add ability to add/remove items
+23. [ ] be able to move items up/down
+24. [ ] be able to sort items
+25. [ ] Vercel
 26. [ ] add ability to export as JSON (but versioned schema so can change it later)
 27. [ ] add ability to have detailed notes for each task
 28. [ ] be able to have sub tasks
