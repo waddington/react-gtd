@@ -1,5 +1,6 @@
 import NextAuth from "next-auth";
 import GithubProvider from "next-auth/providers/github";
+import GoogleProvider from "next-auth/providers/google";
 import { config } from "../../../config";
 import { DynamoDBAdapter } from "@next-auth/dynamodb-adapter";
 import { documentClient } from "../../../lib/dynamodb/connection";
@@ -10,6 +11,10 @@ export const authOptions = {
         GithubProvider({
             clientId: config.auth.providers.github.clientId,
             clientSecret: config.auth.providers.github.clientSecret,
+        }),
+        GoogleProvider({
+            clientId: config.auth.providers.google.clientId,
+            clientSecret: config.auth.providers.google.clientSecret,
         }),
         // ...add more providers here
     ],
