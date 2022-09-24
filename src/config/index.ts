@@ -7,6 +7,14 @@ export const config = {
         userSecret: process.env.DYNAMO_DB_SECRET,
         tableName: process.env.DYNAMO_DB_TABLE_NAME,
         region: process.env.DYNAMO_DB_REGION
+    },
+    auth: {
+        providers: {
+            github: {
+                clientId: process.env.AUTH_GITHUB_CLIENT_ID,
+                clientSecret: process.env.AUTH_GITHUB_CLIENT_SECRET
+            }
+        }
     }
 }
 
