@@ -3,6 +3,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import {LoginBtn} from "../components/LoginBtn";
+import { NextLink } from '@mantine/next';
+import { Button } from '@mantine/core';
 
 const Home: NextPage = () => {
   return (
@@ -14,6 +16,10 @@ const Home: NextPage = () => {
       </Head>
 
       <LoginBtn />
+
+      <Button component={NextLink} href="/">
+        Next link button
+      </Button>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
