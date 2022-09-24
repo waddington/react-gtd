@@ -14,7 +14,8 @@ export const config = {
                 clientId: process.env.AUTH_GITHUB_CLIENT_ID,
                 clientSecret: process.env.AUTH_GITHUB_CLIENT_SECRET
             }
-        }
+        },
+        persistenceTableName: process.env.AUTH_PERSISTENCE_TABLE_NAME
     }
 }
 
