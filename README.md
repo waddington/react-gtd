@@ -9,16 +9,16 @@ A to-do list that increments priority of old tasks.
 2. [x] choose an auth method
     - [Next-Auth](https://github.com/nextauthjs/next-auth-example)
 3. [x] choose a database
-   - [AWS DynamoDB](https://aws.amazon.com/dynamodb/pricing/)
+    - [AWS DynamoDB](https://aws.amazon.com/dynamodb/pricing/)
 4. [x] (12:22) setup NextJS with Eslint, typescript, jest
 5. [x] (12:48) add testing hooks
 6. [x] (13:47) add database connection
 7. [x] (14:13) add logging
 8. [x] (15:01) add user auth
 9. [x] (15:39) add UI framework
-10. [ ] render a page
-11. [ ] Vercel
-12. [ ] add code formatting
+10. [x] (15:54) add code formatting
+11. [ ] render a page
+12. [ ] Vercel
 13. [ ] be responsive
 14. [ ] add more auth providers for dev (email, google, passwordless?)
 15. [ ] add auth providers for production
@@ -26,20 +26,21 @@ A to-do list that increments priority of old tasks.
 17. [ ] add a todo item
 18. [ ] when state changes we should save to db and/or local storage
 19. [ ] ability to store history
-20. [ ] add importance incrementer
-21. [ ] add item editting
-22. [ ] add ability to add/remove items
-23. [ ] be able to move items up/down
-24. [ ] be able to sort items
-25. [ ] add ability to export as JSON (but versioned schema so can change it later)
-26. [ ] add ability to have detailed notes for each task
-27. [ ] be able to have sub tasks
-28. [ ] be able to have related tasks
-29. [ ] be able to set deadline for task which would change priority change speed
-30. [ ] be able to set default priority change speed
-31. [ ] be able to manually change task priority 
-32. [ ] improve auth settings (are there extra env vars to add?)
-33. [ ] [Production readiness](https://nextjs.org/docs/going-to-production)
+20. [ ] apply code formatted to only staged files
+21. [ ] add importance incrementer
+22. [ ] add item editting
+23. [ ] add ability to add/remove items
+24. [ ] be able to move items up/down
+25. [ ] be able to sort items
+26. [ ] add ability to export as JSON (but versioned schema so can change it later)
+27. [ ] add ability to have detailed notes for each task
+28. [ ] be able to have sub tasks
+29. [ ] be able to have related tasks
+30. [ ] be able to set deadline for task which would change priority change speed
+31. [ ] be able to set default priority change speed
+32. [ ] be able to manually change task priority
+33. [ ] improve auth settings (are there extra env vars to add?)
+34. [ ] [Production readiness](https://nextjs.org/docs/going-to-production)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -65,8 +66,8 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+-   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
@@ -75,4 +76,3 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-

@@ -1,3 +1,3 @@
 export const getLogger = () => {
-    return require('pino')()
-}
+    return require("pino")();
+};

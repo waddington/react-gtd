@@ -1,4 +1,16 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npm run lint
+echo 'Checking types and fixing styling before committing'
+
+npm run lint ||
+(
+  echo 'Linting Failed!'
+  false
+)
+
+npm run prettier:write ||
+(
+  echo 'Styling Failed!'
+  false
+)
