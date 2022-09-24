@@ -1,4 +1,3 @@
-import "../styles/globals.css";
 import { Session } from "next-auth";
 import { SessionProvider } from "next-auth/react";
 import { MantineProvider } from "@mantine/core";
@@ -25,7 +24,6 @@ function MyApp({
                     withGlobalStyles
                     withNormalizeCSS
                     theme={{
-                        /** Put your mantine theme override here */
                         colorScheme: "light",
                     }}
                 >
