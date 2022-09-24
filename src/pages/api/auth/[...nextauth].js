@@ -13,6 +13,6 @@ export const authOptions = {
         }),
         // ...add more providers here
     ],
-    adapter: DynamoDBAdapter(documentClient, { tableName: 'GTDUsers' }),
+    adapter: DynamoDBAdapter(documentClient, { tableName: config.auth.persistenceTableName }),
 }
 export default NextAuth(authOptions)
