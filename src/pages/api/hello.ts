@@ -4,7 +4,7 @@ import {get, put } from "../../lib/dynamodb/operations";
 import {logger} from "../../logging/logger";
 
 type Data = {
-  name: string
+  data: string
 }
 
 export default async function handle(
@@ -13,5 +13,5 @@ export default async function handle(
 ) {
   logger.info('Route /hello handler')
   const dbData = await get()
-  res.status(200).json({data: dbData})
+  res.status(200).json({data: JSON.stringify(dbData)})
 }
