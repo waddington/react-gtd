@@ -15,7 +15,7 @@ A to-do list that increments priority of old tasks.
 6. [x] (13:47) add database connection
 7. [x] (14:13) add logging
 8. [x] (15:01) add user auth
-9. [ ] add UI framework
+9. [x] (15:39) add UI framework
 10. [ ] render a page
 11. [ ] Vercel
 12. [ ] add code formatting
