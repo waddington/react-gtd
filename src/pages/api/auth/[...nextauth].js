@@ -1,8 +1,8 @@
-import NextAuth from "next-auth"
-import GithubProvider from "next-auth/providers/github"
-import {config} from "../../../config";
-import { DynamoDBAdapter } from "@next-auth/dynamodb-adapter"
-import {documentClient} from "../../../lib/dynamodb/connection";
+import NextAuth from "next-auth";
+import GithubProvider from "next-auth/providers/github";
+import { config } from "../../../config";
+import { DynamoDBAdapter } from "@next-auth/dynamodb-adapter";
+import { documentClient } from "../../../lib/dynamodb/connection";
 
 export const authOptions = {
     // Configure one or more authentication providers
@@ -13,6 +13,8 @@ export const authOptions = {
         }),
         // ...add more providers here
     ],
-    adapter: DynamoDBAdapter(documentClient, { tableName: config.auth.persistenceTableName }),
-}
-export default NextAuth(authOptions)
+    adapter: DynamoDBAdapter(documentClient, {
+        tableName: config.auth.persistenceTableName,
+    }),
+};
+export default NextAuth(authOptions);

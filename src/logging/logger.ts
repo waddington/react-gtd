@@ -1,3 +1,3 @@
-import {getLogger} from "../lib/pino/pino";
+import { getLogger } from "../lib/pino/pino";
 
-export const logger = getLogger()
+export const logger = getLogger();

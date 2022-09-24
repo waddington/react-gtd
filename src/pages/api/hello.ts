@@ -1,17 +1,17 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-import type { NextApiRequest, NextApiResponse } from 'next'
-import {get, put } from "../../lib/dynamodb/operations";
-import {logger} from "../../logging/logger";
+import type { NextApiRequest, NextApiResponse } from "next";
+import { get, put } from "../../lib/dynamodb/operations";
+import { logger } from "../../logging/logger";
 
 type Data = {
-  data: string
-}
+    data: string;
+};
 
 export default async function handle(
-  req: NextApiRequest,
-  res: NextApiResponse<Data>
+    req: NextApiRequest,
+    res: NextApiResponse<Data>
 ) {
-  logger.info('Route /hello handler')
-  const dbData = await get()
-  res.status(200).json({data: JSON.stringify(dbData)})
+    logger.info("Route /hello handler");
+    const dbData = await get();
+    res.status(200).json({ data: JSON.stringify(dbData) });
 }
