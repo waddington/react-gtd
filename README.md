@@ -15,28 +15,31 @@ A to-do list that increments priority of old tasks.
 6. [x] (13:47) add database connection
 7. [x] (14:13) add logging
 8. [x] (15:01) add user auth
-9. [ ] create db schema
+9. [ ] add UI framework
 10. [ ] render a page
 11. [ ] Vercel
 12. [ ] add code formatting
 13. [ ] be responsive
-14. [ ] add user auth
-15. [ ] add a todo item
-16. [ ] when state changes we should save to db and/or local storage
-17. [ ] ability to store history
-18. [ ] add importance incrementer
-19. [ ] add item editting
-20. [ ] add ability to add/remove items
-21. [ ] be able to move items up/down
-22. [ ] be able to sort items
-23. [ ] add ability to export as JSON (but versioned schema so can change it later)
-24. [ ] add ability to have detailed notes for each task
-25. [ ] be able to have sub tasks
-26. [ ] be able to have related tasks
-27. [ ] be able to set deadline for task which would change priority change speed
-28. [ ] be able to set default priority change speed
-29. [ ] be able to manually change task priority 
-30. [ ] [Production readiness](https://nextjs.org/docs/going-to-production)
+14. [ ] add more auth providers for dev (email, google, passwordless?)
+15. [ ] add auth providers for production
+16. [ ] create db schema
+17. [ ] add a todo item
+18. [ ] when state changes we should save to db and/or local storage
+19. [ ] ability to store history
+20. [ ] add importance incrementer
+21. [ ] add item editting
+22. [ ] add ability to add/remove items
+23. [ ] be able to move items up/down
+24. [ ] be able to sort items
+25. [ ] add ability to export as JSON (but versioned schema so can change it later)
+26. [ ] add ability to have detailed notes for each task
+27. [ ] be able to have sub tasks
+28. [ ] be able to have related tasks
+29. [ ] be able to set deadline for task which would change priority change speed
+30. [ ] be able to set default priority change speed
+31. [ ] be able to manually change task priority 
+32. [ ] improve auth settings (are there extra env vars to add?)
+33. [ ] [Production readiness](https://nextjs.org/docs/going-to-production)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
