@@ -7,6 +7,8 @@ declare global {
             DYNAMO_DB_SECRET: string,
             DYNAMO_DB_TABLE_NAME: string,
             DYNAMO_DB_REGION: string,
+            AUTH_GITHUB_CLIENT_ID: string,
+            AUTH_GITHUB_CLIENT_SECRET: string
         }
     }
 }
