@@ -18,28 +18,28 @@ A to-do list that increments priority of old tasks.
 9. [x] (15:39) add UI framework
 10. [x] (15:54) add code formatting
 11. [x] (18:47) render a page
-13. [ ] add more auth providers for dev (email, google, passwordless?)
-14. [ ] add auth providers for production
-15. [ ] create db schema (support multiple lists per user)
-16. [ ] add a todo item
-17. [ ] when state changes we should save to db and/or local storage
-18. [ ] ability to store history
-19. [ ] apply code formatted to only staged files
-20. [ ] add importance incrementer
-21. [ ] add item editting
-22. [ ] add ability to add/remove items
-23. [ ] be able to move items up/down
-24. [ ] be able to sort items
-25. [ ] Vercel
-26. [ ] add ability to export as JSON (but versioned schema so can change it later)
-27. [ ] add ability to have detailed notes for each task
-28. [ ] be able to have sub tasks
-29. [ ] be able to have related tasks
-30. [ ] be able to set deadline for task which would change priority change speed
-31. [ ] be able to set default priority change speed
-32. [ ] be able to manually change task priority
-33. [ ] improve auth settings (are there extra env vars to add?)
-34. [ ] [Production readiness](https://nextjs.org/docs/going-to-production)
+12. [x] (19:05) add more auth providers for dev
+13. [ ] create db schema (support multiple lists per user)
+14. [ ] add a todo item
+15. [ ] when state changes we should save to db and/or local storage
+16. [ ] ability to store history
+17. [ ] apply code formatted to only staged files
+18. [ ] add importance incrementer
+19. [ ] add item editting
+20. [ ] add ability to add/remove items
+21. [ ] be able to move items up/down
+22. [ ] be able to sort items
+23. [ ] add auth providers for production
+24. [ ] Vercel
+25. [ ] add ability to export as JSON (but versioned schema so can change it later)
+26. [ ] add ability to have detailed notes for each task
+27. [ ] be able to have sub tasks
+28. [ ] be able to have related tasks
+29. [ ] be able to set deadline for task which would change priority change speed
+30. [ ] be able to set default priority change speed
+31. [ ] be able to manually change task priority
+32. [ ] improve auth settings (are there extra env vars to add?)
+33. [ ] [Production readiness](https://nextjs.org/docs/going-to-production)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
