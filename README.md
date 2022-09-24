@@ -19,7 +19,7 @@ A to-do list that increments priority of old tasks.
 10. [x] (15:54) add code formatting
 11. [x] (18:47) render a page
 12. [x] (19:05) add more auth providers for dev
-13. [ ] create db schema (support multiple lists per user)
+13. [x] (19:26) create db schema (support multiple lists per user)
 14. [ ] add a todo item
 15. [ ] when state changes we should save to db and/or local storage
 16. [ ] ability to store history
