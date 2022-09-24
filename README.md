@@ -13,7 +13,7 @@ A to-do list that increments priority of old tasks.
 4. [x] (12:22) setup NextJS with Eslint, typescript, jest
 5. [x] (12:48) add testing hooks
 6. [x] (13:47) add database connection
-7. [ ] add logging
+7. [x] (14:13) add logging
 8. [ ] create db schema
 9. [ ] add auth
 10. [ ] render a page

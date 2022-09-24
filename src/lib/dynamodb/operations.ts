@@ -8,8 +8,10 @@ import {
 } from '@aws-sdk/client-dynamodb';
 import {client} from "./connection";
 import {config} from "../../config";
+import {logger} from "../../logging/logger";
 
 export const get = async () => {
+    logger.info('DynamoDB GET')
     const data = await client.send(
         new GetItemCommand({
             TableName: config.db.tableName,
@@ -22,6 +24,7 @@ export const get = async () => {
 }
 
 export const put = async () => {
+    logger.info('DynamoDB PUT')
     const data = await client.send(
         new PutItemCommand({
             TableName: config.db.tableName,
